@@ -13,6 +13,22 @@ This documentation guides you in setting up a cluster with three master nodes, o
 |Master|kmaster3.example.com|172.16.16.103|Ubuntu 20.04|2G|2|
 |Worker|kworker1.example.com|172.16.16.201|Ubuntu 20.04|2G|2|
 
+
+```
+
+|Role|OS|RAM|CPU|minimum cpu and ram requirement|
+|----|----|----|----|----|
+|Load Balancer|Ubuntu 20.04|512M|1|minimum cpu and ram requirement|
+|Load Balancer|Ubuntu 20.04|512M|1|minimum cpu and ram requirement|
+|Master1|Ubuntu 20.04|2G|2|minimum cpu and ram requirement|
+|Master2|Ubuntu 20.04|2G|2|minimum cpu and ram requirement|
+|Master3|Ubuntu 20.04|2G|2|minimum cpu and ram requirement|
+|Worker1|Ubuntu 20.04|1G|1|minimum cpu and ram requirement|
+|Worker2|Ubuntu 20.04|1G|1|minimum cpu and ram requirement|
+|Worker3|Ubuntu 20.04|1G|1|minimum cpu and ram requirement|
+
+
+```
 > * Password for the **root** account on all these virtual machines is **kubeadmin**
 > * Perform all the commands as root user unless otherwise specified
 
